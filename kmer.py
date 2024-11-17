@@ -303,8 +303,13 @@ def main():
     print("Otherwise, program will be stuck in an infinite loop")
   elif sys.argv[3] == "s":
     randomize(sys.argv[1], int(sys.argv[2]))
-  else:
+  elif sys.argv[3] == "e":
     random_euler(sys.argv[1], int(sys.argv[2]))
+  else:
+    print("Usage: python kmer.py <file_name>.fasta <k> <s/e>")
+    print("If using Euler: DNA sequences only work with k > 5 and protein sequences only work with k > 2")
+    print("Otherwise, program will be stuck in an infinite loop")
+
 
 if __name__ == "__main__":
   main()

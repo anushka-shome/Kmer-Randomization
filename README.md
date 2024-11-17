@@ -15,7 +15,7 @@ If using Euler: DNA sequences only work with k > 5 and protein sequences only wo
 Otherwise, program will be stuck in an infinite loop
 ```
 
-There are some limitations to my program. While the sampling randomization works for any sequence of any value of k > 1, the euler function does not. 
+There are some limitations to my program. While the sampling randomization works for any sequence of any value of k > 0, the euler function does not. 
 - If the sequence is a DNA sequence, only k > 5 works
 - If the sequence is a protein sequence, only k > 3 works
 My program does not handle the event that the user inputs invalid k values for the euler function. Instead, the program will be stuck in an infinite loop.

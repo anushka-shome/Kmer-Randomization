@@ -1,5 +1,7 @@
 # Kmer-Randomization
 
+The following libraries are imported in the program: sys, random, and collections. All of these packages should be included if you have Python installed.
+
 To run the program, download the kmer.py file to your device. Open your terminal and navigate to the folder where the kmer.py file is stored. Run the program using the following command line format:
 ```
 python kmer.py <file_name>.fasta <k> <s/e>
@@ -22,6 +24,6 @@ My program does not handle the event that the user inputs invalid k values for t
 
 The program writes into a file called randomized_seq.fasta, which will be created in the same folder as kmer.py. If you run the program once and then run it again, the contents of randomized_seq.fasta will be overwritten.
 
-If an invalid file is given in file_name.fasta, an error statement is printed out and execution stops. Other errors are not handled besides an invalid command line, as mentioned above. 
+If an invalid file is given in file_name.fasta, an error statement is printed out and execution stops. Other errors are not handled besides an invalid command line, as mentioned above.
 
-The following libraries are imported in the program: sys, random, and collections. All of these packages should be included if you have Python installed.
+The output of the program is a table containing the kmer count for both the original and the randomized sequence.

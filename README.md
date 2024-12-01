@@ -27,3 +27,5 @@ The program writes into a file called randomized_seq.fasta, which will be create
 If an invalid file is given in file_name.fasta, an error statement is printed out and execution stops. Other errors are not handled besides an invalid command line, as mentioned above.
 
 The output of the program is a table containing the kmer count for both the original and the randomized sequence.
+
+The Example Sequences folder contains nucleotide and protein sequences. The nucleotide sequence files have a name beginning with an 'N' and the protein sequence files have a name beginning with a 'P'.
